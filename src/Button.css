@@ -3,18 +3,18 @@
 {
     color:white;
     border:none;
-    float: right;
+    float: left;
     border-radius: 8px;
     font-size: 20px;
     padding:10px;
-    padding-left: 10px;
-    padding-right: 30px;
-    margin-Right:15px;
+    
+    margin-Right:5px;
     margin-top: 50px;
     outline: none;
-    background-color: #DF6631;
-    width: 110px;
-    height: 50px;
+    background-color: #FFCA28 ;
+    width: 90px;
+    height: 40px;
+    margin-left: 250px;
 }
 .Button:hover
 {
