@@ -13,7 +13,6 @@ class Converter extends React.Component{
             
         })
     }
-    
     handleResult=(e, field)=>{
         if(field ==='A')
         {  const newvalueA=e.target.value;
@@ -43,7 +42,6 @@ class Converter extends React.Component{
         }
     render()
     {
-        
         return(
             <div>
                 <div style={{marginLeft:'auto',marginRight:'auto',display:'block',color:'white',marginTop:100,backgroundColor:' #FFCA28  ',height:80,width:350}}>
@@ -60,10 +58,6 @@ class Converter extends React.Component{
                         <span style={{fontWeight:'bold',display:'block',marginLeft:15,float:'left',color:'white',marginTop:10}}>Converted To</span>
                         <input style={{float:'left',marginRight:56,display:'block',marginTop:5,marginLeft:45,borderRadius:10,width:285,height:45,border:'none',outline:'none',paddingLeft:10}} type="text" onChange={(e)=>{this.handleResult(e,'B')}}  value={this.state.fieldB} placeholder="USD "  name="toCurrency"/>
                         <input  className="Button" type="button" value="Reset" onClick={this.handleReset}/> 
-                        
-
-                       
-
                      </div>
                 <div>
                     <h3>{this.state.result}</h3>
